@@ -14,7 +14,7 @@ const Form = ({ onSubmit }) => {
   const [message, setMessage] = useState('50-100 employees')
 
   return (
-    <form className="bg-light-gray/30 p-6 rounded-2xl grid gap-6 max-w-4xl relative left-1/2 transform -translate-x-1/2 md:grid-cols-8" onSubmit={onSubmit}>
+    <form className="bg-light-gray/30 p-6 rounded-2xl grid gap-6 max-w-3xl relative left-1/2 transform -translate-x-1/2 md:grid-cols-8" onSubmit={onSubmit}>
       <div className="flex flex-col gap-y-4 col-span-full md:grid md:grid-cols-2 md:gap-4">
         <Input
           value={inputName}

@@ -4,7 +4,7 @@ const App = () => {
   const onSubmit = () => console.log('xd')
 
   return (
-    <div className="p-5 flex flex-col gap-y-12 max-w-7xl mx-auto md:py-8 md:gap-y-16">
+    <div className="p-5 flex flex-col gap-y-12 max-w-6xl mx-auto md:py-8 md:gap-y-16">
       <header>
         <svg
           width="99"
@@ -25,11 +25,11 @@ const App = () => {
         </svg>
       </header>
       <main className="flex flex-col gap-y-12 lg:gap-y-20">
-        <section className="text-center max-w-xl mx-auto">
-          <h1 className="text-3xl font-bold mb-4 sm:text-4xl lg:text-6xl">
+        <section className="text-center max-w-2xl mx-auto">
+          <h1 className="text-3xl font-bold mb-6 sm:text-4xl md:text-6xl">
             Interested in our business pricing?
           </h1>
-          <p className="sm:text-xl lg:text-2xl">
+          <p className="sm:text-xl md:text-3xl">
             Fill out the form to view details and we&apos;ll contact you as soon
             as possible
           </p>

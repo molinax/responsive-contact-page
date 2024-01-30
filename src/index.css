@@ -22,7 +22,7 @@
 
 @layer components {
   .input-value {
-    @apply text-dark font-bold placeholder:text-light-gray placeholder:font-semibold;
+    @apply text-dark placeholder:text-light-gray placeholder:font-semibold font-semibold;
   }
 
   .input-container {

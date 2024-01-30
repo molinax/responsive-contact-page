@@ -25,11 +25,11 @@ const App = () => {
         </svg>
       </header>
       <main className="flex flex-col gap-y-12 lg:gap-y-20">
-        <section className="text-center max-w-2xl mx-auto">
-          <h1 className="text-3xl font-bold mb-6 sm:text-4xl md:text-6xl">
+        <section className="text-center max-w-md md:max-w-2xl mx-auto">
+          <h1 className="text-4xl font-bold mb-8 sm:text-5xl md:text-[4rem] md:leading-[4.5rem]">
             Interested in our business pricing?
           </h1>
-          <p className="sm:text-xl md:text-3xl">
+          <p className="sm:text-xl md:text-[2rem] md:leading-[2.5rem]">
             Fill out the form to view details and we&apos;ll contact you as soon
             as possible
           </p>

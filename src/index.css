@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply font-be-vietnam-pro; 
+  }
+
+  body {
+    @apply bg-[url('../public/img/bg-image.svg')] text-semi-white bg-cover; 
+  }
+
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+}
+
+@layer components {
+  .input-value {
+    @apply text-dark font-bold placeholder:text-light-gray placeholder:font-semibold;
+  }
+
+  .input-container {
+    @apply bg-white p-4 rounded-xl outline-none;
+  }
+
+  .input-flex {
+    @apply flex flex-col gap-y-2;
+  }
+}
